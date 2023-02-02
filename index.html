@@ -20,7 +20,62 @@
     <!-- linking external css -->
     <link rel="stylesheet" href="style.css"> 
 </head>
-<body>
+<body class="text-secondary">
+    <!-- Header Section -->
+    <header class="container mt-5 mb-5">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="images/logo2.png" alt="Logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item p-3">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item p-3 d-flex">
+                    <a class="nav-link" href="#">Service</a>
+                    <img src="images/greater-than-solid.png" alt="" class="py-2 mx-2">
+                  </li>
+                  <li class="nav-item p-3 d-flex">
+                    <a class="nav-link" href="#">Cases</a>
+                    <img src="images/greater-than-solid.png" alt="" class=" py-2 mx-2">
+                  </li>
+                  <li class="nav-item p-3 d-flex">
+                    <a class="nav-link" href="#">Blog</a>
+                    <img src="images/greater-than-solid.png" alt="" class="py-2 mx-2">
+                  </li>
+                  <li class="nav-item p-3 d-flex">
+                    <a class="nav-link" href="#">Contact Us</a>
+                    <img src="images/greater-than-solid.png" alt="" class="py-2 mx-2">
+                  </li>
+                </ul>
+                  <button class="btn btn-danger fw-bold common-btn px-5 py-4 border-0 rounded-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Free Consultation
+                  </button>
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Please Contact with us</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              ...
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Later</button>
+                              <button type="button" class="btn btn-primary">Contact Immediately</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+              </div>
+            </div>
+          </nav>
+    </header>
     
 </body>
 </html>
